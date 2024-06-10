@@ -22,7 +22,7 @@ jobs:
       runs-on: ubuntu-latest 
       steps:
         - uses: actions/checkout@v2
-        - name: Hello Parth 
+        - name: Hello Parth Goodbye!!!!!!
           run: echo "Hello Parth"
           shell: bash 
            
