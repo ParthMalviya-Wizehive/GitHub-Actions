@@ -23,7 +23,7 @@ jobs:
       steps:
         - uses: actions/checkout@v2
         - name: Hello Parth Goodbye!!!!!!
-          run: echo "Hello Parth"
+          run: echo "Hello Parth GOOOD BYE!!!!!!!"
           shell: bash 
            
    
