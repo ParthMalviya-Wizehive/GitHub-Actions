@@ -9,7 +9,6 @@ jobs:
       steps:
           - name: "dump github context" 
             run: echo '${{ toJSON(github.event) }}'  | jq 
-          - name: " My issue is xyz " 
             shell: bash
       
       
