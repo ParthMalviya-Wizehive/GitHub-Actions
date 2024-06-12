@@ -10,5 +10,6 @@ jobs:
           - name: "dump github context" 
             run: echo '${{ toJSON(github.event) }}'  | jq 
             shell: bash
-      
+          - name: "The issue in my comment is"
+            run: echo 'Issue is xyz' 
       
