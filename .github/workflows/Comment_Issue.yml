@@ -11,6 +11,6 @@ jobs:
             run: echo '${{ toJSON(github.event) }}'  | jq 
             shell: bash
           - name: "The issue in my comment is"
-            run: echo '${{ toJSON(Issues(description))}}' | jq
+            run: echo '${{ toJSON(description.issues) }}' | jq
             shell: bash
     
