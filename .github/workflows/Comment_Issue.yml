@@ -10,9 +10,9 @@ jobs:
           - name: "The issue in my comment is"
             run: echo '${{ toJSON(github.event.issue) }}' | jq
             shell: bash
-          - name: " To print our issue "
+          - name: " To print our title of issue "
             run: echo "${{github.event.issue.title}}"
-          - name: " To print our issue "
+          - name: " To print our description of issue "
             run: echo "${{github.event.issue.body}}"
             
             
