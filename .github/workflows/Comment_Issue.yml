@@ -12,5 +12,9 @@ jobs:
             shell: bash
           - name: " To print our issue "
             run: echo "${{github.event.issue.title}}"
+          - name: " To print our issue "
+            run: echo "${{github.event.issue.body}}"
+            
+            
             
     
